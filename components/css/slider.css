@@ -1,0 +1,57 @@
+.contenedorSlider{
+    
+}
+
+.slider{
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.imgReunion{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+.logo{
+    position: absolute;
+    width: 40vw;
+    /* border: 4px solid white; QUE SALGA DEL LOGO */
+}
+.descripcion{
+    background-color: #FFCC59 ;
+    padding: 4%;
+}
+
+.texto {
+    color: white ;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.categorias{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 100vw;
+    height: 90vh;
+    background-color:#FFCC59;
+    justify-content: space-around;
+}
+
+.logoCategorias{
+    display: flex;
+    padding: 15px;
+    background-color: #FFCC59;
+    width:100%;
+    height: 100%;
+    justify-content:center;
+    align-items: center;
+    
+}
+.logoCategorias img {
+    object-fit: cover;
+    border-radius: 15rem;
+    height: 55%;
+    width: 55%;
+    box-shadow:  0 0px 35px rgb(175, 169, 169);
+}
